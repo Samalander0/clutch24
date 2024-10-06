@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff7ed;
+
+  margin: 0;
+  padding: 0;
+}
+
+#canvas,
+#loadingCanvas {
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#loadingCanvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
